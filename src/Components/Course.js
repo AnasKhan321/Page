@@ -31,7 +31,7 @@ const Course = () => {
 
             <div className="cards flex justify-center my-4 flex-wrap  md:flex-row flex-col items-center ">
 
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
 
                     <div className="img-section">
                         <img src={logo} alt="" className="rounded-xl" />
@@ -72,50 +72,7 @@ const Course = () => {
                     </div>
                 </div>
 
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
-
-                    <div className="img-section">
-                        <img src={logo} alt="" className="rounded-xl" />
-                    </div>
-
-                    <div className="content-section px-2">
-                        <div className="rating flex justify-between my-2">
-                            <div className="flex item-center justify-center" >
-                                <p> 12 </p>
-                                <BiSolidUser className="text-md my-1 mx-1" />
-
-                            </div>
-
-                            <div className="flex item-center  justify-center ">
-                                <p> 4.7 </p>
-                                <AiFillStar className="text-md my-1 mx-1" />
-
-                            </div>
-
-                        </div>
-
-                        <div className="teacher text-center font-bold text-xl my-2 flex  flex-col items-center justify-center ">
-                            {/* <img src="https://static.vecteezy.com/system/resources/thumbnails/001/840/618/small/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg" alt=""  className="w-4/12 rounded-full"/> */}
-
-                            <p> Anas Khan </p>
-                        </div>
-
-                        <div className="heading  text-center font-bold text-md ">
-                            Introduction to Python Programming
-                        </div>
-
-                        <div className="price flex my-4 justify-between">
-                            <p className="text-sm">Begginer Friendly </p>
-                            <p> ₹2,000 </p>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
 
                     <div className="img-section">
                         <img src={logo} alt="" className="rounded-xl" />
@@ -158,7 +115,7 @@ const Course = () => {
 
 
 
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
 
                     <div className="img-section">
                         <img src={logo} alt="" className="rounded-xl" />
@@ -200,7 +157,8 @@ const Course = () => {
                 </div>
 
 
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
 
                     <div className="img-section">
                         <img src={logo} alt="" className="rounded-xl" />
@@ -242,7 +200,49 @@ const Course = () => {
                 </div>
 
 
-                <div className="card  cursor-pointer  rounded-xl  mx-4 w-8/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
+
+                    <div className="img-section">
+                        <img src={logo} alt="" className="rounded-xl" />
+                    </div>
+
+                    <div className="content-section px-2">
+                        <div className="rating flex justify-between my-2">
+                            <div className="flex item-center justify-center" >
+                                <p> 12 </p>
+                                <BiSolidUser className="text-md my-1 mx-1" />
+
+                            </div>
+
+                            <div className="flex item-center  justify-center ">
+                                <p> 4.7 </p>
+                                <AiFillStar className="text-md my-1 mx-1" />
+
+                            </div>
+
+                        </div>
+
+                        <div className="teacher text-center font-bold text-xl my-2 flex  flex-col items-center justify-center ">
+                            {/* <img src="https://static.vecteezy.com/system/resources/thumbnails/001/840/618/small/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg" alt=""  className="w-4/12 rounded-full"/> */}
+
+                            <p> Anas Khan </p>
+                        </div>
+
+                        <div className="heading  text-center font-bold text-md ">
+                            Introduction to Python Programming
+                        </div>
+
+                        <div className="price flex my-4 justify-between">
+                            <p className="text-sm">Begginer Friendly </p>
+                            <p> ₹2,000 </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div className="card  cursor-pointer  rounded-xl  mx-4 w-11/12 md:w-3/12   shadow-xl border-2 shadow-slate-300  hover:shadow-pink-200 p-1 font-bold my-4" onMouseEnter={() => { description('Description of Course Should be here ') }} onMouseLeave={() => { setmessage(false) }} >
 
                     <div className="img-section">
                         <img src={logo} alt="" className="rounded-xl" />
